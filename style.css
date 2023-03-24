@@ -1,0 +1,614 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
+
+/* body {
+     font-family: 'Poppins', sans-serif;
+     transition: all 0.2s;
+} */
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     display: flex;
+     max-width: 1100px;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     /* background-color: red; */
+     margin: 0 auto;
+
+}
+
+header {
+     background-image: url(./images/headerimg.png);
+     width: 100%;
+     height: 100vh;
+     background-size: cover;
+     background-blend-mode: color;
+     background-color: rgb(0, 0, 0, 0.4);
+     /* opacity: 0.1; */
+}
+
+
+.logo {
+     color: white;
+     margin: 10px;
+}
+
+.logo h1::after {
+     content: "GB";
+     color: orange;
+
+}
+
+.main-div {
+     /* background-color: blue; */
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+     margin-top: 20px;
+     padding: 10px;
+}
+
+.main-div ul {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+
+}
+
+.main-div ul li {
+     padding: 10px;
+     color: white;
+}
+
+.login {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+}
+
+.login button {
+     margin-left: 20px;
+     padding: 5px 10px;
+     border-radius: 50px;
+     outline: none;
+     border: 2px solid orange;
+     background-color: transparent;
+     color: white;
+
+}
+
+.herotext {
+     margin: 20px;
+     margin-top: 50px;
+}
+
+.herotext h1 {
+     margin-top: 20px;
+     color: white;
+     text-transform: uppercase;
+     line-height: 60px;
+     font-size: 48px;
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+
+.herotext p {
+     /* margin-top: 20px;
+     margin-bottom: 20px; */
+     margin: 30px 0px;
+     line-height: 30px;
+     color: white;
+     font-size: 18px;
+}
+
+.btn {
+     padding: 15px 40px;
+     border-radius: 30px;
+     outline: none;
+     border: none;
+     background-color: orange;
+     color: white;
+}
+
+.headercards {
+     background-color: rgba(0, 0, 0, 0.386);
+     border-radius: 6px;
+     margin: 20px;
+     color: white;
+     margin-top: 40px;
+
+}
+
+.card {
+     /* margin-top: 20px;      */
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+
+.card h1 {
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 4px;
+     padding: 20px 20px;
+}
+
+.card p {
+     padding: 0px 20px;
+     line-height: 24px;
+}
+
+/* ------- form section ------- */
+.formsection {
+     /* background-color: red; */
+     width: 100%;
+     height: 80vh;
+     display: flex;
+     margin-top: 60px;
+}
+
+.form h1::after {
+     content: "Discover the nature";
+     color: orange;
+}
+
+hr {
+     width: 20%;
+     color: black;
+
+}
+
+.form {
+     /* background-color: blue; */
+     width: 50%;
+     padding: 20px;
+}
+
+.form h1 {
+     font-size: 46px;
+     font-weight: bold;
+     margin-bottom: 20px;
+
+}
+
+#search {
+     padding: 20px;
+     width: 97%;
+     margin-top: 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: rgba(222, 222, 222, 0.429);
+}
+
+#date {
+     padding: 20px;
+     width: 48%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: rgba(222, 222, 222, 0.429);
+
+}
+
+#guest {
+     padding: 20px;
+     width: 48%;
+     margin-bottom: 20px;
+     padding-right: 10px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: rgba(222, 222, 222, 0.429);
+
+}
+
+.formbtn {
+     padding: 20px;
+     width: 97%;
+     color: white;
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     background-color: orange;
+}
+
+.main-grid {
+     /* padding: 20px; */
+     width: 100%;
+     height: 170vh;
+     /* background-color: red; */
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 3, 1fr;
+     gap: 20px;
+
+}
+
+.item1 {
+     /* background-color: blue; */
+     padding: 20PX;
+
+
+
+
+}
+
+.item1 h1 {
+     /* line-height: 30px; */
+     margin-bottom: 20px;
+
+}
+
+.item1 a {
+     color: red;
+     font-weight: 400;
+     text-decoration: none;
+}
+
+.item2 {
+     background-color: rgb(30, 255, 0);
+     display: flex;
+     align-items: flex-end;
+     color: white;
+     background-image: url(./images/m2.png);
+     background-size: cover;
+
+}
+
+.item2 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+}
+
+.item3 {
+     background-color: rgb(255, 0, 187);
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m1.png);
+     background-size: cover;
+     color: white
+}
+
+.item3 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+}
+
+.item4 {
+     background-color: #00d5ff;
+     margin-bottom: -20px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m3.png);
+     background-size: cover;
+     color: white;
+}
+
+.item4 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+
+.item5 {
+     background-color: rgb(204, 255, 0);
+     grid-column: 2/4;
+     grid-row: 2/4;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m4.png);
+     background-clip: cover;
+     color: white;
+}
+
+.item5 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+
+.item6 {
+     background-color: rgb(0, 255, 76);
+     margin-bottom: -20px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m5.png);
+     background-size: cover;
+     color: white;
+
+}
+
+.item6 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+
+.item7 {
+     background-color: purple;
+     margin-bottom: -20px;
+     background-image: url(./images/8.png);
+     background-size: cover;
+     color: white;
+
+}
+
+/* .item7 h2 {
+     background-color: rgba(0, 0, 0, 0.467);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+} */
+
+.item8 {
+     background-color: pink;
+     grid-column: 2/4;
+     grid-row: 4/6;
+     /* height: 50vh; */
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m6.png);
+     background-size: cover;
+     color: white;
+}
+
+.item8 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+
+.item9 {
+     background-color: green;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     background-image: url(./images/m7.png);
+     background-size: cover;
+     color: white;
+
+
+}
+
+.item9 h2 {
+     background-color: rgba(0, 0, 0, 0.4);
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+
+.Storyheading {
+     margin-top: 50px;
+}
+
+.Travelstory {
+     /* background-color: red; */
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-between;
+     height: 90vh;
+
+}
+
+
+
+.Travelimages {
+     background-color: #edfeff;
+     width: 40vw;
+     height: 80vh;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.image1 {
+     width: 50%;
+     height: 50vh;
+     background-image: url(./images/Image2.png);
+     background-size: cover;
+     border-radius: 8px;
+     position: relative;
+     top: -14px;
+     left: 54px;
+
+
+}
+
+.image2 {
+     width: 45%;
+     height: 40vh;
+     border-radius: 8px;
+     background-image: url(./images/Image1.png);
+     background-size: cover;
+     position: relative;
+     top: 60px;
+     right: 66px;
+     z-index: 2;
+
+
+}
+
+.Traveltext {
+     /* background-color: #00d5ff; */
+     width: 50%;
+     height: 80vh;
+     padding: 20px;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     /* text-align: center; */
+
+}
+
+.text h4 {
+     color: orange;
+}
+
+.text a {
+     color: orange;
+}
+
+.Traveltext h1 {
+     margin-top: 14px;
+     margin-bottom: 14px;
+}
+
+.Traveltext p {
+     margin-bottom: 14px;
+}
+
+.Traveltext a {
+     text-decoration: none;
+}
+
+.videoplayer {
+     margin-top: 50px;
+     margin-left: 100px;
+}
+
+.newslatter {
+     background-color: blue;
+     background-image: url(./images/news.png);
+     background-size: cover;
+     background-blend-mode: color;
+     background-color: rgb(0, 0, 0, 0.7);
+     margin-top: 50px;
+     width: 100%;
+     height: 50vh;
+}
+
+.news {
+     padding: 16px;
+     background-color: transparent;
+     border: 1px solid rgb(255, 255, 255);
+     border-radius: 4px;
+     outline: none;
+     width: 80%;
+     /* margin-top: 11%; */
+
+}
+
+.button {
+     padding: 15px;
+     margin-left: -6px;
+     /* margin-top: 11%; */
+     background-color: transparent;
+     border: 1px solid rgb(255, 255, 255);
+     color: white;
+     outline: none;
+     border-radius: 4px;
+}
+
+
+.newslatter {
+     display: flex;
+     justify-content: center;
+
+
+}
+
+.subscribe {
+     width: 33%;
+     background-color: transparent;
+     border-color: white;
+
+}
+
+.subscribe h1 {
+     color: white;
+     margin-top: 30%;
+     font-size: 30px;
+     margin-bottom: 14px;
+}
+
+.footer {
+     width: 100%;
+     height: 50vh;
+     background-color: #1e1d1d;
+}
+
+.footertext {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: white;
+}
+
+.footerlinks ul {
+     list-style: none;
+     color: white;
+     cursor: pointer;
+     font-size: 18px;
+     margin-top: 40px;
+}
+
+.footerlinks ul li {
+     padding: 10px;
+}
+
+
+.pic1 {
+     margin-bottom: 20px;
+}
+
+
+
+.sidetext p {
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.sidetext h4 {
+     margin-bottom: 10px;
+}
+
+.sidetext h1::after {
+     content: "GB";
+     color: orange;
+}
